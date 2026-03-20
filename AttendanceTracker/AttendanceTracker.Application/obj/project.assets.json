@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "AttendanceTracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/AttendanceTracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AttendanceTracker.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AttendanceTracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AttendanceTracker.Domain/AttendanceTracker.Domain.csproj",
+      "msbuildProject": "../AttendanceTracker.Domain/AttendanceTracker.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "AttendanceTracker.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Mahesh\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\QwinProjects\\AttendanceTracker.API\\AttendanceTracker\\AttendanceTracker.Domain\\AttendanceTracker.Domain.csproj": {
+              "projectPath": "D:\\QwinProjects\\AttendanceTracker.API\\AttendanceTracker\\AttendanceTracker.Domain\\AttendanceTracker.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -72,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

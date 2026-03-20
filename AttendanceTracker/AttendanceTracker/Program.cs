@@ -1,4 +1,6 @@
 
+using AttendanceTracker.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 namespace AttendanceTracker
 {
     public class Program
@@ -12,7 +14,11 @@ namespace AttendanceTracker
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
-
+            builder.Services.AddDbContext<AppDbcontext>(options =>
+     options.UseSqlServer(
+         builder.Configuration.GetConnectionString("DefaultConnection"),
+         b => b.MigrationsAssembly("AttendanceTracker.Infrastructure")
+     ));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
