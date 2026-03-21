@@ -1,0 +1,12 @@
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\bin\Debug\net10.0\AttendanceTracker.Shared.deps.json
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\bin\Debug\net10.0\AttendanceTracker.Shared.dll
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\bin\Debug\net10.0\AttendanceTracker.Shared.pdb
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.AssemblyInfoInputs.cache
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.AssemblyInfo.cs
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.csproj.CoreCompileInputs.cache
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.sourcelink.json
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.dll
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\refint\AttendanceTracker.Shared.dll
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\AttendanceTracker.Shared.pdb
+D:\QwinProjects\AttendanceTracker.API\AttendanceTracker\AttendanceTracker.Shared\obj\Debug\net10.0\ref\AttendanceTracker.Shared.dll
